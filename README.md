@@ -411,6 +411,7 @@ describe('Cart Methods:', function() {
     expect( cart.total ).toEqual( cars[0].price + cars[8].price + cars[2].price );
   });
   
+  
   test('removeFromCart() should remove a car object from the cart array.', function() {
     cart.addToCart( cars[0] );
     cart.addToCart( cars[1] );
